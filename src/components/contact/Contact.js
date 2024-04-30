@@ -21,40 +21,35 @@ function Contact() {
 
       <body>
         <div className="">
-          <div class="contact-card">
+          <div className="contact-card">
           <div class="card mb-3" > {/*style="max-width: 900px;"*/}
               <div class="row g-0">
                   <div class="col-md-8">
                       <div class="card-body flex">
-                          <h4 class="card-title pb-5 pt-4 user-select-none">Adresses</h4>
+                          <h4 class="card-title pb-4 pt-4 ">Adresses</h4>
                           
                             <div class="row">
                               <div class="col">
                                 <ul>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/user.png" alt=""> */}
+                                  <p>
                                     <PersonIcon className="icon" />
                                     IYA BOULAMDI DANIEL
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/envelope.png" alt=""> */}
+                                  <p>
                                     <MailIcon className="icon"/>
                                     <a href="#mail1" className="a">
                                     iyadaniel51@gmail.com
                                     </a>
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/phone-call.png" alt=""> */}
+                                  <p>
                                     <LocalPhoneIcon className="icon"/>
                                     +237 620 256 858
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/marker.png" alt=""> */}
+                                  <p>
                                     <LocationOnIcon className="icon"/>
                                     Nkolfoulou, Yaoundé
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/home.png" alt=""> */}
+                                  <p>
                                     <HomeIcon className="icon"/>
                                     Garoua, Nord
                                   </p>
@@ -62,43 +57,36 @@ function Contact() {
                               </div>
                               <div class="col">
                                 <ul>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/flag.png" alt=""> */}
+                                  <p>
                                     <AssistantPhotoIcon className="icon"/>
                                     CAMEROUN
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/envelope.png" alt=""> */}
+                                  <p>
                                     <MailIcon className="icon"/>
                                     <a href="#mail2" className="a">
                                     daniel.iya@facsciences-uy1.cm
                                     </a>
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/phone-call.png" alt=""> */}
+                                  <p>
                                     <LocalPhoneIcon className="icon"/>
                                     +237 650 467 369
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/hand-holding-heart.png" alt=""> */}
-                                    
+                                  <p>                                    
                                     <PeopleAltIcon className="icon"/>
                                     Célibataire
                                   </p>
-                                  <p class="user-select-none">
-                                    {/* <img class="icon" src="assets/images/truck-side.png" alt=""> */}
+                                  <p>
                                     <DirectionsCarIcon className="icon"/>
                                     Permi B, Véhicule
                                   </p>
-                              </ul>
+                                </ul>
                               </div>
                             </div>
                           
                       </div>
                   </div>
-                  <div class="col-md-4">
-                    {/* <img src="assets/images/contact.png" class="img-fluid rounded-start" alt="..."> */}
-                  </div>
+                  {/* <div class="col-md-4">
+                  </div> */}
               </div>
             </div>
         </div>
