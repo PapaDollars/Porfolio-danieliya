@@ -96,7 +96,7 @@ function Contact() {
 
       <footer>
         <div class="copywrites">
-            @2024 IYA BOULAMDI DANIEL - Tous droits réservés
+            @2024 Curriculum Vitae - IYA BOULAMDI DANIEL
         </div>
       </footer>
     </div>

@@ -71,7 +71,7 @@ function HomePage() {
 
       <footer>
         <div class="copywrites">
-            @2024 IYA BOULAMDI DANIEL - Curriculum Vitae
+          @2024 Curriculum Vitae - IYA BOULAMDI DANIEL
         </div>
       </footer>
     </div>

@@ -2,6 +2,8 @@ import './Footer.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import Divider from '@mui/material/Divider';
+
 
 function Footer() {
   return (
@@ -63,9 +65,9 @@ function Footer() {
                 </div>
             </div>
         </div>
-        
+        <Divider></Divider>
         <div class="copywrite">
-            @2024 IYA BOULAMDI DANIEL - Tous droits réservés
+            @2024 Curriculum Vitae - IYA BOULAMDI DANIEL
         </div>
     </>
   );

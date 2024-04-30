@@ -17,11 +17,11 @@ p {
 
 .copywrite {
     margin: 0% auto;
-    padding: 1%;
+    padding: 2%;
     text-align: center;
-    color: white;
+    /* color: white; */
     font-size: 80%;
-    background-color: #3B5998;
+    /* background-color: #3B5998; */
 }
 
 h4 {
