@@ -1,0 +1,52 @@
+
+p {
+    font-size: 100%;
+}
+
+.footer {
+    margin: 0% auto;
+    padding: 6%;
+    background-color: #FDFEFE;
+}
+
+.footer1 {
+    margin: 0% auto;
+    padding: 6%;
+    background-color: #212529;
+}
+
+.copywrite {
+    margin: 0% auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    font-size: 80%;
+    background-color: #3B5998;
+}
+
+h4 {
+    padding: 5%;
+    color: #3B5998;
+}
+
+p, li {
+    color: #7B7D7D;
+}
+
+img {
+    width: 150px;
+    padding-bottom: 5%;
+}
+
+.icon {
+    margin: auto 1%;
+    width: 8%;
+    padding: 1%;
+    background-color: white;
+    cursor: pointer;
+}
+
+a {
+    color: #7B7D7D;
+    text-decoration: none;
+}
