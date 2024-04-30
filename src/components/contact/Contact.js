@@ -1,5 +1,5 @@
-import Footer from "../footer/Footer";
 import Header from "../header/Header";
+import './Contact.css';
 
 
 function Contact() {
@@ -20,7 +20,9 @@ function Contact() {
       </body>
 
       <footer>
-        <Footer />
+        <div class="copywrites">
+            @2024 IYA BOULAMDI DANIEL - Tous droits réservés
+        </div>
       </footer>
     </div>
   );

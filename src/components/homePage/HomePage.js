@@ -1,5 +1,5 @@
-import Footer from "../footer/Footer";
 import Header from "../header/Header";
+import './HomePage.css';
 
 
 function HomePage() {
@@ -23,7 +23,9 @@ function HomePage() {
       </body>
 
       <footer>
-        <Footer />
+        <div class="copywrites">
+            @2024 IYA BOULAMDI DANIEL - Tous droits réservés
+        </div>
       </footer>
     </div>
   );
