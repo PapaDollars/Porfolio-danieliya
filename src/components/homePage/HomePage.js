@@ -24,7 +24,7 @@ function HomePage() {
 
       <footer>
         <div class="copywrites">
-            @2024 IYA BOULAMDI DANIEL - Tous droits réservés
+            @2024 IYA BOULAMDI DANIEL - Curriculum Vitae
         </div>
       </footer>
     </div>

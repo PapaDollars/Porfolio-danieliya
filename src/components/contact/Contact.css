@@ -9,3 +9,34 @@
     font-size: 80%;
     background-color: #3B5998;
   }
+
+
+
+  .contact-card {
+    /* background-image: url('/assets/images/back.png'); */
+    padding: 3%;
+    padding-top: 8%;
+}
+
+h4 {
+    text-align: center;
+    color: #E67E22;
+}
+
+.icon {
+    margin: auto 1%;
+    width: 8%;
+}
+
+.contact {
+    padding: 10% 0% 0% 30%;
+}
+
+p {
+    color: #7B7D7D;
+}
+
+.a {
+    color: #7B7D7D;
+    text-decoration: none;
+}
