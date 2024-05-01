@@ -133,8 +133,8 @@ const itemData = [
     author: '@katie_wasserman',
   },
   {
-    img: 'https://th.bing.com/th/id/OIP.Z7oz-UE96cn06LU5Uid04gHaEK?rs=1&pid=ImgDetMain',
-    title: 'CSS',
+    img: 'https://th.bing.com/th/id/OIP.Jgs7k1H6NQ3myYg8rpNurQHaD-?w=900&h=483&rs=1&pid=ImgDetMain',
+    title: 'HTML - CSS',
     author: '@silverdalex',
   },
   {

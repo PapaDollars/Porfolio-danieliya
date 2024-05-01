@@ -2,6 +2,8 @@ import Footer from "../footer/Footer";
 import Header from "../header/Header";
 import './Porfolio.css';
 import Divider from '@mui/material/Divider';
+import Iya0 from '../../assets/images/dollar0.png';
+import Iya1 from '../../assets/images/dollar1.png';
 import Iya2 from '../../assets/images/dollar2.png';
 import Iya3 from '../../assets/images/dollar3.png';
 import Iya4 from '../../assets/images/dollar4.png';
@@ -45,7 +47,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya5} className="card-img-top" alt="title" />
+                    <img src={Iya4} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title text-info">PRINVED</h5>
                       <h6 class="card-text-h6"> Maroua — Infographiste</h6>
@@ -227,7 +229,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya4} className="card-img-top" alt="title" />
+                    <img src={Iya0} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">freeCodeCamp.org</h5>
                       <h6 class="card-text-h6">Responsive Web Design</h6>
@@ -239,7 +241,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya2} className="card-img-top" alt="title" />
+                    <img src={Iya1} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">OpenClassrooms</h5>
                       <h6 class="card-text-h6">Travaillez efficacement en équipe</h6>

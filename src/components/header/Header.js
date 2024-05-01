@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = ['Profil', 'Porfolio', 'Galerie'];
+const pages = ['Profil', 'Portfolio', 'Galerie'];
 const settings = ['Profil', 'Contact'];
 const linksRoute = ["/", "/porfolio", "/galerie"];
 const linksRoute2 = ["/", "/contact"];
@@ -114,7 +114,7 @@ function Header() {
                 textDecoration: 'none',
               }}
             >
-              CV
+              PORTFOLIO
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page, index) => (
