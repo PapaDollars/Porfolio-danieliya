@@ -14,7 +14,7 @@ function Contact() {
     <div className="Contact">
      
      <header>
-        <div className=''>
+        <div className='pb-5'>
             <Header />
         </div>
       </header>

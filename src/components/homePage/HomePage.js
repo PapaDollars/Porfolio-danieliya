@@ -14,13 +14,13 @@ function HomePage() {
     <div className="HomePage">
      
      <header>
-        <div className='pb-3'>
+        <div className='pb-5'>
             <Header />
         </div>
       </header>
 
       <body>
-        <div class="container-fluid">
+        <div class="container-fluid pt-3">
           <div class="row description-card">
             <div class="col text-center">
                 <Card sx={{ minWidth: 275 }} className="">

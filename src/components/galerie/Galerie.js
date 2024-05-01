@@ -22,13 +22,13 @@ function Galerie() {
     <div className="Galerie">
      
      <header>
-        <div className='pb-3'>
+        <div className='pb-5'>
             <Header />
         </div>
       </header>
 
       <body>
-        <div className='container pt-3'>
+        <div className='container pt-5'>
             <div className="row">
               <div className="col">
                 <ImageList

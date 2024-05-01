@@ -13,20 +13,20 @@ function Porfolio() {
     return (
         <div className="Porfolio">
         <header>
-          <div className='pb-3'>
+          <div className='pb-5'>
             <Header />
           </div>
         </header>
   
         <body>
-          <div className='container pt-3'>
+          <div className='container pt-5'>
             <div class="row ">
                 <div class="col">
                   <h3 class="titre_session">EXPERIENCES</h3>
                 </div>
               </div>
 
-              <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+              <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
                 <div class="col">
                   <div class="card h-100">
                     <img src={Iya} className="card-img-top" alt="title" />
@@ -79,7 +79,7 @@ function Porfolio() {
                 </div>
               </div>
 
-              <div class="row row-cols-1 row-cols-md-4 g-4 projet">
+              <div class="row row-cols-1 row-cols-md-4 g-4 p-4 projet">
                 <div class="col">
                   <div class="card h-100">
                     <img src={Iya} className="card-img-top" alt="title" />
@@ -169,7 +169,7 @@ function Porfolio() {
                 </div>
               </div>
 
-              <div class="row row-cols-1 row-cols-md-3 g-4 formation">
+              <div class="row row-cols-1 row-cols-md-3 g-4 p-4 formation">
                 <div class="col">
                   <div class="card h-100">
                     <img src={Iya} className="card-img-top" alt="title" />
@@ -196,7 +196,7 @@ function Porfolio() {
                 </div>
               </div>
 
-              <div class="row row-cols-1 row-cols-md-4 g-4 certificat">
+              <div class="row row-cols-1 row-cols-md-4 g-4 p-4 certificat">
                 <div class="col">
                   <div class="card h-100">
                     <img src={Iya} className="card-img-top" alt="title" />
