@@ -19,12 +19,12 @@ p {
     margin: 0% auto;
     padding: 2%;
     text-align: center;
-    /* color: white; */
+    color: #7B7D7D;
     font-size: 80%;
     /* background-color: #3B5998; */
 }
 
-h4 {
+.h4 {
     padding: 5%;
     color: #3B5998;
 }
@@ -49,4 +49,8 @@ img {
 a {
     color: #7B7D7D;
     text-decoration: none;
+}
+
+.align {
+    text-align: left;
 }

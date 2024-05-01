@@ -45,7 +45,7 @@ function HomePage() {
                             </Typography>
 
                             <Typography sx={{ fontSize: 14 }} className="icons" gutterBottom>
-                                <a href="https://www.linkedin.com/in/daniel-iya" target='_blank' className='icon' rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/daniel-iya" target='_blank' rel="noopener noreferrer" className='icon'>
                                     <LinkedInIcon />
                                 </a>
                                 <a href="https://github.com/PapaDollars" target='_blank' className='p-3 icon' rel="noopener noreferrer">
