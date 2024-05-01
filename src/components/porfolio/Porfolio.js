@@ -2,7 +2,11 @@ import Footer from "../footer/Footer";
 import Header from "../header/Header";
 import './Porfolio.css';
 import Divider from '@mui/material/Divider';
-import Iya from '../../assets/images/dollar.png';
+import Iya2 from '../../assets/images/dollar2.png';
+import Iya3 from '../../assets/images/dollar3.png';
+import Iya4 from '../../assets/images/dollar4.png';
+import Iya5 from '../../assets/images/dollar5.png';
+import Iya6 from '../../assets/images/dollar6.png';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -29,7 +33,7 @@ function Porfolio() {
               <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya5} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title text-info">CENADI</h5>
                       <h6 class="card-text-h6">Garoua — Développeur Web</h6>
@@ -41,7 +45,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya5} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title text-info">PRINVED</h5>
                       <h6 class="card-text-h6"> Maroua — Infographiste</h6>
@@ -53,7 +57,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya5} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title text-info">L'ACADEMIE JUSA</h5>
                       <h6 class="card-text-h6">  Yaoundé — Marketing Digital </h6>
@@ -82,7 +86,7 @@ function Porfolio() {
               <div class="row row-cols-1 row-cols-md-4 g-4 p-4 projet">
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya3} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">Plateforme de Travail Collaboratif</h5>
                       <h6 class="card-text-h6 text-info">REACT JS</h6>
@@ -99,7 +103,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya3} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">Application PWA de génération de Curriculum Vitae</h5>
                       <h6 class="card-text-h6 text-info">ANGULAR</h6>
@@ -118,7 +122,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya3} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">Application de e-commerce </h5>
                       <h6 class="card-text-h6 text-info">JAVA</h6>
@@ -138,7 +142,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya3} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">Application de Gestion des Emplois de Temps </h5>
                       <h6 class="card-text-h6 text-info">C#</h6>
@@ -172,7 +176,7 @@ function Porfolio() {
               <div class="row row-cols-1 row-cols-md-3 g-4 p-4 formation">
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya6} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">Université de Yaoundé I</h5>
                       <h6 class="card-text-h6">  Licence Professionnelle, Informatique, Génie Logiciel </h6>
@@ -199,7 +203,7 @@ function Porfolio() {
               <div class="row row-cols-1 row-cols-md-4 g-4 p-4 certificat">
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya2} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">OpenClassrooms</h5>
                       <h6 class="card-text-h6">Développez des sites web - Java EE</h6>
@@ -211,7 +215,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya2} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">OpenClassrooms</h5>
                       <h6 class="card-text-h6">Débutez avec Angular</h6>
@@ -223,7 +227,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya4} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">freeCodeCamp.org</h5>
                       <h6 class="card-text-h6">Responsive Web Design</h6>
@@ -235,7 +239,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya} className="card-img-top" alt="title" />
+                    <img src={Iya2} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">OpenClassrooms</h5>
                       <h6 class="card-text-h6">Travaillez efficacement en équipe</h6>
@@ -246,11 +250,11 @@ function Porfolio() {
                   </div>
                 </div>
 
-                <Divider className="pt-5 pb-5"></Divider>
+                <Divider className=""></Divider>
                 
 
-                <div className="contianer-fluid">
-                <div class="row ">
+                {/* <div className="contianer-fluid"> */}
+                <div class="row pt-5">
                   <div class="col">
                     <Accordion>
                       <AccordionSummary
@@ -258,7 +262,9 @@ function Porfolio() {
                         aria-controls="panel1-content"
                         id="panel1-header"
                       >
-                        <Typography>COMPÉTENCES</Typography>
+                        <Typography className="TitleTypography1">
+                          <h4>COMPÉTENCES</h4>
+                        </Typography>
                       </AccordionSummary>
                       <AccordionDetails>
                         <Typography>
@@ -282,7 +288,7 @@ function Porfolio() {
                   </div>
                 </div>
 
-                <div class="row ">
+                <div class="row pt-5">
                   <div class="col">
                     <Accordion>
                       <AccordionSummary
@@ -290,7 +296,9 @@ function Porfolio() {
                         aria-controls="panel1-content"
                         id="panel1-header"
                       >
-                        <Typography>QUALITÉS</Typography>
+                        <Typography>
+                          <h4 className="TitleTypography">QUALITÉS</h4>
+                        </Typography>
                       </AccordionSummary>
                       <AccordionDetails>
                         <Typography>
@@ -312,7 +320,7 @@ function Porfolio() {
                   </div>
                 </div>
 
-                <div class="row ">
+                <div class="row pt-5">
                   <div class="col">
                     <Accordion>
                       <AccordionSummary
@@ -320,7 +328,9 @@ function Porfolio() {
                         aria-controls="panel1-content"
                         id="panel1-header"
                       >
-                        <Typography>LOGICIELS & OS</Typography>
+                        <Typography className="TitleTypography1">
+                          <h4>LOGICIELS & OS</h4>
+                        </Typography>
                       </AccordionSummary>
                       <AccordionDetails>
                         <Typography>
@@ -341,7 +351,7 @@ function Porfolio() {
                     </Accordion>
                   </div>
                 </div>
-                </div>
+                {/* </div> */}
               
               </div>
           </div>

@@ -20,9 +20,9 @@ function HomePage() {
       </header>
 
       <body>
-        <div class="container-fluid pt-3">
+        <div class="container-fluid">
           <div class="row description-card">
-            <div class="col text-center">
+            <div class="col text-center pb-5">
                 <Card sx={{ minWidth: 275 }} className="">
                   <CardContent>
                       <div className="row">

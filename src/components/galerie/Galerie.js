@@ -1,11 +1,11 @@
 import Footer from "../footer/Footer";
 import Header from "../header/Header";
-
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
+
 
 function srcset(image, width, height, rows = 1, cols = 1) {
   return {
@@ -91,65 +91,65 @@ export default Galerie;
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    img: 'https://miro.medium.com/v2/resize:fit:1200/1*odW0CyTVxMVt5s3yhjjOhw.png',
+    title: 'React js',
     author: '@bkristastucchio',
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
+    img: 'https://topdev.vn/blog/wp-content/uploads/2023/03/cau-hoi-phong-van-angular-developers.png',
+    title: 'Angular js',
     author: '@rollelflex_graphy726',
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    img: 'https://cloud.z.com/vn/wp-content/uploads/2023/02/image1-20.png',
+    title: 'Bootstrap',
     author: '@helloimnik',
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
+    img: 'https://picx.zhimg.com/v2-c58e0f7ec9c223ccf42dcaa07904a5c8_720w.jpg?source=172ae18b',
+    title: 'Node js',
     author: '@nolanissac',
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
-    author: '@hjrc33',
+    img: 'https://th.bing.com/th/id/OIP.DN7ToydkJZEdVaJVK_NhvwAAAA?rs=1&pid=ImgDetMain',
+    title: 'JavaScript',
+    author: '@tjdragotta',
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
+    img: 'https://th.bing.com/th/id/R.34cd4d69fa04e5b40c8d1966c6510e75?rik=Qpy%2fhUIA96BcOA&pid=ImgRaw&r=0',
+    title: 'Poste de travail',
     author: '@arwinneil',
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
-    author: '@tjdragotta',
+    img: 'https://i.pinimg.com/originals/c8/e4/3a/c8e43a15e26066ad84e8c86e672faef3.jpg',
+    title: 'C Sharp',
+    author: '@hjrc33',
   },
   {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
+    img: 'https://th.bing.com/th/id/R.49f81ba9c837e6b0abbb4601f88430c6?rik=leTBggQOAr2C4Q&pid=ImgRaw&r=0',
+    title: 'GitHub',
     author: '@katie_wasserman',
   },
   {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
+    img: 'https://th.bing.com/th/id/OIP.Z7oz-UE96cn06LU5Uid04gHaEK?rs=1&pid=ImgDetMain',
+    title: 'CSS',
     author: '@silverdalex',
   },
   {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
+    img: 'https://th.bing.com/th/id/R.977f0445f61bf6a62dbb793a1120043f?rik=5C9SQG0unaj%2bng&pid=ImgRaw&r=0',
+    title: 'Java',
     author: '@shelleypauls',
   },
   {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-    author: '@peterlaster',
+    img: 'https://digiato.com/wp-content/uploads/2020/12/Encryption.jpg',
+    title: 'Securitée informatique',
+    author: '@nolanissac',
   },
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
+    img: 'https://th.bing.com/th/id/OIP.SboJBHuD5NqUtcHb_89YgAHaC9?w=800&h=320&rs=1&pid=ImgDetMain',
+    title: 'MySql',
     author: '@southside_customs',
   },
 ];
