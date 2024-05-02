@@ -58,7 +58,7 @@ function Footer() {
         </div>
         <Divider></Divider>
         <div class="copywrite">
-            @2024 Curriculum Vitae - IYA BOULAMDI DANIEL
+            @2024 Portfolio - IYA BOULAMDI DANIEL
         </div>
     </>
   );

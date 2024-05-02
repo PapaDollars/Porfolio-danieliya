@@ -11,11 +11,19 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import CollectionsIcon from '@mui/icons-material/Collections';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import ContactsIcon from '@mui/icons-material/Contacts';
+import Iya from '../../assets/images/dollar.png';
+
 
 const pages = ['Profil', 'Portfolio', 'Galerie'];
-const settings = ['Profil', 'Contact'];
 const linksRoute = ["/", "/porfolio", "/galerie"];
-const linksRoute2 = ["/", "/contact"];
+const icons = [<AccountBoxIcon />, <AccountTreeIcon />, <CollectionsIcon />];
+const settings = ['Contact'];
+const linksRoute2 = ["/contact"];
+const icon = [<ContactsIcon />];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -44,8 +52,6 @@ function Header() {
             <Typography
               variant="h6"
               noWrap
-              component="a"
-              href="#CV-IYA-BOULAMDI-DANIEL"
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
@@ -53,7 +59,6 @@ function Header() {
                 fontWeight: 700,
                 letterSpacing: '.3rem',
                 color: 'inherit',
-                textDecoration: 'none',
               }}
             >
               CURRICULUM VITAE
@@ -92,7 +97,7 @@ function Header() {
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">
                       <a className='text-dark text-decoration-none' 
-                          href={linksRoute[index]}>{page}</a>
+                          href={linksRoute[index]}>{icons[index]} {page}</a>
                     </Typography>
                   </MenuItem>
                 ))}
@@ -132,7 +137,7 @@ function Header() {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Paramètres">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/.jpg" />
+                  <Avatar alt="Remy Sharp" src={Iya} />
                 </IconButton>
               </Tooltip>
               <Menu
@@ -155,7 +160,7 @@ function Header() {
                   <MenuItem key={setting} onClick={handleCloseUserMenu}>
                     <Typography textAlign="center">
                     <a className='text-secondary text-decoration-none' 
-                      href={linksRoute2[index]}>{setting}</a>
+                      href={linksRoute2[index]}>{icon[index]} {setting}</a>
                       </Typography>
                   </MenuItem>
                 ))}
