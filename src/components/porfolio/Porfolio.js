@@ -271,11 +271,9 @@ function Porfolio() {
                       <AccordionDetails>
                         <Typography>
                           <ul>
-                              <li>Développeur Front-End
+                              <li>Développeur Web
                               </li>
                               <li>Infographiste
-                              </li>
-                              <li> Développeur applications de bureau
                               </li>
                               <li>Community Manager
                               </li>

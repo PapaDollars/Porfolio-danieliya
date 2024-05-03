@@ -14,16 +14,16 @@ import MenuItem from '@mui/material/MenuItem';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import CollectionsIcon from '@mui/icons-material/Collections';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
-import ContactsIcon from '@mui/icons-material/Contacts';
+import NewReleasesIcon from '@mui/icons-material/NewReleases';
 import Iya from '../../assets/images/dollar.png';
 
 
 const pages = ['Profil', 'Portfolio', 'Galerie'];
 const linksRoute = ["/", "/porfolio", "/galerie"];
 const icons = [<AccountBoxIcon />, <AccountTreeIcon />, <CollectionsIcon />];
-const settings = ['Contact'];
+const settings = ['À propos'];
 const linksRoute2 = ["/contact"];
-const icon = [<ContactsIcon />];
+const icon = [<NewReleasesIcon />];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
