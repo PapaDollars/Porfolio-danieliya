@@ -38,7 +38,7 @@ function Footer() {
                 <h4 className='align h4'>ADRESSES</h4>
                     <p>Yaoundé, CAMEROUN
                     </p>
-                    <p> +237 620 256 858/+237 650 467 369
+                    <p> +237 620 256 858
                     </p>
                     <p>iyadaniel51@gmail.com
                     </p>

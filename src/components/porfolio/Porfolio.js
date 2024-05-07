@@ -9,6 +9,8 @@ import Iya3 from '../../assets/images/dollar3.png';
 import Iya4 from '../../assets/images/dollar4.png';
 import Iya5 from '../../assets/images/dollar5.png';
 import Iya6 from '../../assets/images/dollar6.png';
+import Iya7 from '../../assets/images/dollar7.png';
+import Iya8 from '../../assets/images/dollar8.png';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -59,7 +61,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya5} className="card-img-top" alt="title" />
+                    <img src={Iya7} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title text-info">L'ACADEMIE JUSA</h5>
                       <h6 class="card-text-h6">  Yaoundé — Marketing Digital </h6>
@@ -217,7 +219,7 @@ function Porfolio() {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src={Iya2} className="card-img-top" alt="title" />
+                    <img src={Iya8} className="card-img-top" alt="title" />
                     <div class="card-body">
                       <h5 class="card-title">OpenClassrooms</h5>
                       <h6 class="card-text-h6">Débutez avec Angular</h6>
