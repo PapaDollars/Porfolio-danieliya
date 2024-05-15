@@ -50,10 +50,6 @@
     font-size: 80%;
     padding: 1% 25% 0% 25%;
   }
-  .description-card {
-    background-color: #3B5998;
-    padding: 2% 10% 5% 10%;
-  }
   .description {
     border-radius: 2rem;
     width: 30%;
@@ -66,10 +62,6 @@
     text-align: center;
     font-size: 80%;
     padding: 1% 10% 0% 10%;
-  }
-  .description-card {
-    background-color: #3B5998;
-    padding: 5% 10% 15% 10%;
   }
   .description {
     border-radius: 2rem;
@@ -84,10 +76,6 @@
     font-size: 80%;
     padding: 1% 5% 0% 5%;
   }
-  .description-card {
-    background-color: #3B5998;
-    padding: 10% 10% 25% 10%;
-  }
   .description {
     border-radius: 2rem;
     width: 40%;
@@ -100,10 +88,6 @@
     text-align: center;
     font-size: 80%;
     padding: 1% 0% 0% 0%;
-  }
-  .description-card {
-    background-color: #3B5998;
-    padding: 10% 10% 28% 10%;
   }
   .description {
     border-radius: 2rem;

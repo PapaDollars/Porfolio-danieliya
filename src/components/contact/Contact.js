@@ -8,6 +8,7 @@ import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import HomeIcon from '@mui/icons-material/Home';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
+import CopyRights from "../Copyright/Copyright";
 
 function Contact() {
   return (
@@ -20,14 +21,12 @@ function Contact() {
       </header>
 
       <body>
-        <div className="">
-          <div className="contact-card">
-          <div class="card mb-3" > {/*style="max-width: 900px;"*/}
+        <div className="pt-3">
+          <div class="card" > 
               <div class="row g-0">
                   <div class="col-md-8">
                       <div class="card-body flex">
-                          <h4 class="card-title pb-4 pt-4 ">Adresses</h4>
-                          
+                          <h4 class="card-title p-4 ">Adresses</h4>
                             <div class="row">
                               <div class="col">
                                 <ul>
@@ -85,19 +84,14 @@ function Contact() {
                           
                       </div>
                   </div>
-                  {/* <div class="col-md-4">
-                  </div> */}
               </div>
             </div>
-        </div>
             
         </div>
       </body>
 
       <footer>
-        <div class="copywrites">
-            @2024 Portfolio - IYA BOULAMDI DANIEL
-        </div>
+        <CopyRights/>
       </footer>
     </div>
   );

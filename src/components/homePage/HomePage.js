@@ -7,6 +7,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Iya from '../../assets/images/dollar.png';
+import CopyRights from "../Copyright/Copyright";
 
 
 function HomePage() {
@@ -14,15 +15,15 @@ function HomePage() {
     <div className="HomePage">
      
      <header>
-        <div className='pb-5'>
+        <div className='pb-3'>
             <Header />
         </div>
       </header>
 
       <body>
         <div class="container-fluid">
-          <div class="row description-card">
-            <div class="col text-center pt-5 pb-5">
+          <div class="row">
+            <div class="col text-center pt-5">
                 <Card sx={{ minWidth: 275 }} className="">
                   <CardContent>
                       <div className="row">
@@ -70,9 +71,7 @@ function HomePage() {
       </body>
 
       <footer>
-        <div class="copywrites">
-          @2024 Portfolio - IYA BOULAMDI DANIEL
-        </div>
+        <CopyRights/>
       </footer>
     </div>
   );

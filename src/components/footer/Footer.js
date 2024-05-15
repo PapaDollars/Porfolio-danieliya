@@ -2,6 +2,7 @@ import './Footer.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import MailIcon from '@mui/icons-material/Mail';
 import Divider from '@mui/material/Divider';
 
 
@@ -29,18 +30,12 @@ function Footer() {
                     </li>
                     <li>Musique
                     </li>
-                    <li>Tourisme
-                    </li>
                 </ul>
                 </div>
 
                 <div class="col ">
                 <h4 className='align h4'>ADRESSES</h4>
                     <p>Yaoundé, CAMEROUN
-                    </p>
-                    <p> +237 620 256 858
-                    </p>
-                    <p>iyadaniel51@gmail.com
                     </p>
                     <>
                     <a href="https://www.linkedin.com/in/daniel-iya" target='_blank' className='a' rel="noopener noreferrer">
@@ -52,13 +47,16 @@ function Footer() {
                     <a href="https://wa.me/237620256858" target='_blank' className='a' rel="noopener noreferrer">
                         <WhatsAppIcon />
                     </a>
+                    <a href="#mail" target='_blank' className='p-3 a' rel="noopener noreferrer">
+                        <MailIcon />
+                    </a>
                     </>
                 </div>
             </div>
         </div>
         <Divider></Divider>
         <div class="copywrite">
-            @2024 Portfolio - IYA BOULAMDI DANIEL
+            Copyright ©2024 IYA BOULAMDI DANIEL
         </div>
     </>
   );
