@@ -46,7 +46,7 @@ function Header() {
 
   return (
     <div className='fixed-top'>
-        <AppBar position="static">
+        <AppBar position="static" style={{ backgroundColor: '#023fac' }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography

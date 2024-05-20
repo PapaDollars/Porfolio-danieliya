@@ -21,12 +21,12 @@ function Contact() {
       </header>
 
       <body>
-        <div className="pt-3">
+        <div className="container mt-5">
           <div class="card" > 
               <div class="row g-0">
                   <div class="col-md-8">
                       <div class="card-body flex">
-                          <h4 class="card-title p-4 ">Adresses</h4>
+                          <h4 class="card-title p-2 ">Adresses</h4>
                             <div class="row">
                               <div class="col">
                                 <ul>

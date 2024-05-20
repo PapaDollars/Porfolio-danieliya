@@ -24,7 +24,7 @@ function HomePage() {
         <div class="container-fluid">
           <div class="row">
             <div class="col text-center pt-5">
-                <Card sx={{ minWidth: 275 }} className="">
+                <Card sx={{ minWidth: 275 }} className="mt-5">
                   <CardContent>
                       <div className="row">
                         
