@@ -35,6 +35,18 @@ function Porfolio() {
               </div>
 
               <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+              <div class="col">
+                  <div class="card h-100">
+                    <img src={Iya5} className="card-img-top" alt="title" />
+                    <div class="card-body">
+                      <h5 class="card-title text-info">KAIROS</h5>
+                      <h6 class="card-text-h6">Yaoundé — Développeur Full Stack</h6>
+                      <p class="card-text">Février 2025 - Avril 2025</p>
+                      {/* <!-- <p class="card-text">DANWE DJASSAM JEAN PIERRE, Chef de Centre Informatique </p> --> */}
+                      <p>KAIROS</p>
+                    </div>
+                  </div>
+                </div>
                 <div class="col">
                   <div class="card h-100">
                     <img src={Iya5} className="card-img-top" alt="title" />
@@ -88,6 +100,23 @@ function Porfolio() {
               </div>
 
               <div class="row row-cols-1 row-cols-md-4 g-4 p-4 projet">
+              <div class="col">
+                  <div class="card h-100">
+                    <img src={Iya3} className="card-img-top" alt="title" />
+                    <div class="card-body">
+                      <h5 class="card-title">Application de gestion de travail</h5>
+                      <h6 class="card-text-h6 text-info">REACT JSX</h6>
+                      <p class="card-text"> 
+                        <ul>
+                          <li>Utilisation d'une architecture microservice</li>
+                          <li>Mise en œuvre d'un broker(RabbitMQ) pour eviter la perte de donnée
+                          </li>
+                          <li>Intégration d'un ORM pour la migration de la base de donnée</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               <div class="col">
                   <div class="card h-100">
                     <img src={Iya3} className="card-img-top" alt="title" />
@@ -226,6 +255,18 @@ function Porfolio() {
               </div>
 
               <div class="row row-cols-1 row-cols-md-4 g-4 p-4 certificat">
+              <div class="col">
+                  <div class="card h-100">
+                    <img src={Iya0} className="card-img-top" alt="title" />
+                    <div class="card-body">
+                      <h5 class="card-title">freeCodeCamp.org</h5>
+                      <h6 class="card-text-h6">Responsive Web Design</h6>
+                      <p class="card-text">Novembre 2023</p>
+                      <p><a href="https://www.freecodecamp.org/certification/IYA_BOULAMDI_DANIEL/responsive-web-design" className="text-decoration-none" target='_blank' rel="noopener noreferrer">
+                        Voir la certification</a></p>
+                    </div>
+                  </div>
+                </div>
                 <div class="col">
                   <div class="card h-100">
                     <img src={Iya2} className="card-img-top" alt="title" />
@@ -246,18 +287,6 @@ function Porfolio() {
                       <h6 class="card-text-h6">Débutez avec Angular</h6>
                       <p class="card-text">Décembre 2023</p>
                       <p><a href="https://openclassrooms.com/fr/course-certificates/9785544150" className="text-decoration-none" target='_blank' rel="noopener noreferrer">
-                        Voir la certification</a></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src={Iya0} className="card-img-top" alt="title" />
-                    <div class="card-body">
-                      <h5 class="card-title">freeCodeCamp.org</h5>
-                      <h6 class="card-text-h6">Responsive Web Design</h6>
-                      <p class="card-text">Novembre 2023</p>
-                      <p><a href="https://www.freecodecamp.org/certification/IYA_BOULAMDI_DANIEL/responsive-web-design" className="text-decoration-none" target='_blank' rel="noopener noreferrer">
                         Voir la certification</a></p>
                     </div>
                   </div>
@@ -294,11 +323,11 @@ function Porfolio() {
                       <AccordionDetails>
                         <Typography>
                           <ul>
+                              <li>Développeur Front-end
+                              </li>
                               <li>Développeur Web
                               </li>
                               <li>Infographiste
-                              </li>
-                              <li>Community Manager
                               </li>
                               <li> Freelancer
                               </li>
@@ -326,12 +355,13 @@ function Porfolio() {
                       <AccordionDetails>
                         <Typography>
                           <ul>
-                              <li>Reactjs, Angular, HTML
+                              <li>React.js, Angular, HTML
                               </li>
-                              <li>Nodejs/Expressjs, C#, Java,
-                                  JavaScript/Jquery, Mysql
+                              <li>Mysql, MongoDB, Firebase
                               </li>
-                              <li> Bootstrap, CSS, primeNG
+                              <li>Node.js/Express.js, C#, Java
+                              </li>
+                              <li> Bootstrap, React-bootstrap, Material-ui, CSS, primeNG
                               </li>
                               <li>Git / GitHub
                               </li>
@@ -358,11 +388,9 @@ function Porfolio() {
                       <AccordionDetails>
                         <Typography>
                           <ul>
-                              <li>PowerDesigner - Très bien
+                              <li>Visual Studio Code - Excellent
                               </li>
-                              <li>Adobe photoshop - Excellent
-                              </li>
-                              <li>Microsoft Office - Très bien
+                              <li>Adobe photoshop - Très bien
                               </li>
                               <li>Microsoft Visual Studio. - Très bien
                               </li>
