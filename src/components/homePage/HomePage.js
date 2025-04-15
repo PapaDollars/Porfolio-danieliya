@@ -1,79 +1,79 @@
-import Header from "../header/Header";
 import './HomePage.css';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import Iya from '../../assets/images/dollar.png';
-import CopyRights from "../Copyright/Copyright";
-
+import React from 'react';
+import { 
+  Container,
+  Box,
+  Typography,
+  Button,
+  Alert
+} from '@mui/material';
+import { 
+  Warning as WarningIcon, 
+  Home as HomeIcon,
+  ArrowForward as ArrowForwardIcon 
+} from '@mui/icons-material';
 
 function HomePage() {
   return (
-    <div className="HomePage">
-     
-     <header>
-        <div className='pb-3'>
-            <Header />
-        </div>
-      </header>
-
-      <body>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col text-center pt-5">
-                <Card sx={{ minWidth: 275 }} className="mt-5">
-                  <CardContent>
-                      <div className="row">
-                        
-                        <div className="col">
-                            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                              <h2> 
-                                IYA BOULAMDI DANIEL
-                              </h2>
-                            </Typography>
-
-                            <Typography sx={{ fontSize: 16 }} color="text.secondary" gutterBottom>
-                              <p className="text"> 
-                                Je suis un jeune passionné de l'informatique et de technologies émergentes.
-                                Mon objectif est de contribuer aux projets innovants et d'avoir un
-                                impact dans le domaine de l'informatique. Je suis déterminé à relever de
-                                nouveaux défis et à collaborer avec des équipes
-                                dynamiques.
-                              </p>
-                            </Typography>
-
-                            <Typography sx={{ fontSize: 14 }} className="icons" gutterBottom>
-                                <a href="https://www.linkedin.com/in/daniel-iya" target='_blank' rel="noopener noreferrer" className='icon'>
-                                    <LinkedInIcon />
-                                </a>
-                                <a href="https://github.com/PapaDollars" target='_blank' className='p-3 icon' rel="noopener noreferrer">
-                                    <GitHubIcon />
-                                </a>
-                                <a href="https://wa.me/237620256858" target='_blank' className='icon' rel="noopener noreferrer">
-                                    <WhatsAppIcon />
-                                </a>
-                            </Typography>
-
-                            <Typography sx={{ fontSize: 14 }} className="pt-3" gutterBottom>
-                              <img src={Iya} className="description img-fluid" alt="title" />
-                            </Typography>
-                        </div>
-
-                      </div>
-                  </CardContent>
-                </Card>
-            </div>
-          </div>
-        </div>
-      </body>
-
-      <footer>
-        <CopyRights/>
-      </footer>
-    </div>
+    <Box className="HomePage">
+      <Container maxWidth="md" sx={{
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        textAlign: 'center'
+      }}>
+        <Typography variant="h1" component="div" sx={{
+          fontSize: '4rem',
+          fontWeight: 'bold',
+          mb: 2
+        }}>
+          Ancien Portfolio
+        </Typography>
+        
+        <Box sx={{ color: 'warning.main', fontSize: '3rem', mb: 3 }}>
+          <WarningIcon fontSize="inherit" />
+        </Box>
+        
+        <Alert severity="warning" sx={{ mb: 4 }}>
+          Vous visitez actuellement l'ancienne version de mon Curriculum Vitae.
+        </Alert>
+        
+        {/* <Typography variant="h4" component="h1" sx={{ mb: 3 }}>
+          Nous avons migré vers une nouvelle plateforme !
+        </Typography> */}
+        
+        <Typography variant="body1" sx={{ mb: 4 }}>
+          J'ai migré vers une nouvelle plateforme,
+          veuillez cliquer sur le bouton ci-dessous.
+        </Typography>
+        
+        <Button
+          href="https://portfolio-danieliya.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="contained"
+          size="large"
+          startIcon={<HomeIcon />}
+          endIcon={<ArrowForwardIcon />}
+          sx={{
+            py: 2,
+            px: 4,
+            mt: 2,
+            fontSize: '1.1rem'
+          }}
+        >
+          Accéder au nouveau portfolio
+        </Button>
+        
+        <Box sx={{ mt: 5 }}>
+          <Typography variant="caption" color="text.secondary">
+            Si vous n'êtes pas redirigé automatiquement, <a href="https://portfolio-danieliya.vercel.app">cliquez ici</a>.
+          </Typography>
+        </Box>
+      </Container>
+    </Box>
   );
 }
 
